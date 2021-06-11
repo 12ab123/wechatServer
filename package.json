@@ -1,0 +1,20 @@
+{
+  "name": "wecatserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "dev": "supervisor ./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "js-md5": "^0.7.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "multer": "^1.4.2",
+    "socket.io": "^4.1.2"
+  }
+}
